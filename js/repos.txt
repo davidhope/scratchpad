@@ -1,0 +1,111 @@
+ae-service-proxy
+ai-gsd-poc
+assets-discovery-ui
+assets-google-fetcher
+assets-ingest-acceptance-test
+assets-ingest-bacon-bit
+assets-ingest-gradle-plugin
+bcbs-credential
+bcbs-credential-sb3
+bcbs-gateway-oas-plugin
+bcbs-ingest
+core-batch-jobs
+core-credential
+core-integration
+core-permissions-processor
+core-registration
+core-scripting-emitter
+core-sku
+core-tenant
+core-tracer-bullet
+core-webhook-emitter
+directory-batch-users
+directory-ingest-api
+directory-ingest-common
+directory-ingest-core
+directory-verifier-google
+elevate-test-traffic-generator
+integrations-assets-google-ingest
+integrations-dropbox-delta
+integrations-dropbox-ingest
+integrations-google-api-client
+integrations-ingestion
+integrations-namely-ingest
+integrations-stateful-ingestion
+integrations-verifier
+ivr-bacon-bit
+ivr-content-scanning-service
+ivr-directory-enricher
+ivr-directory-fetcher
+ivr-directory-verifier
+ivr-event-monitoring-acceptance-test
+ivr-event-monitoring-push
+ivr-event-monitoring-webhook
+ivr-gatekeeper
+ivr-gateway
+ivr-ingest
+ivr-provider-api-extend
+provider-integrations
+shared-bom
+slack-eg-ingestion
+
+
+
+
+ae-service-proxy - (owned) ae-service-proxy
+ae-service-proxy - (owned) ae-service-proxy-sync
+core-batch-jobs - (owned) core-batch-jobs
+core-credential - (owned) core-credential
+core-integration - (owned) core-integration
+core-permissions-processor - (owned) core-permissions-processor
+core-registration - (owned) core-registration
+core-scripting-emitter - (owned) core-scripting-emitter
+core-sku - (owned) core-sku
+core-tenant - (owned) core-tenant
+core-tracer-bullet - (owned) core-tracer-bullet
+core-webhook-emitter - (owned) core-webhook-emitter
+ivr-content-scanning-service - (owned) ivr-content-scanning-management-service
+ivr-content-scanning-service - (owned) ivr-content-scanning-models
+ivr-content-scanning-service - (owned) ivr-content-scanning-service-forward
+ivr-content-scanning-service - (owned) ivr-content-scanning-service-quarantined
+ivr-content-scanning-service - (owned) ivr-content-scanning-service-quarantined 
+ivr-content-scanning-service - (owned) ivr-content-scanning-service-synthesized
+ivr-content-scanning-service - (owned) ivr-content-scanning-service-targeted
+
+
+
+Failed to convert MetaWorkflowDTO(
+  id=903052d5-5133-4f31-a761-fa4af48e1136, 
+  workflowId=9b465e61-0f3b-493d-9c70-f6ed662a0d2b, 
+  tenantId=null, 
+  name=null, 
+  state=null, 
+  activitiVersion=null, 
+  startDate=null, 
+  endDate=null, 
+  lastUpdatedDate=null, 
+  description=null, 
+  createdBy=null, 
+  createdDate=null, 
+  lastModifiedBy=null, 
+  workflowType=null, 
+  builtFrom=null, 
+  builtFromId=null, 
+  builtFromVersion=null, 
+  metaEvents=[], 
+  metaConditions=[], 
+  metaActions=[], 
+  finallyMetaActions=[], 
+  metaIntegrations=[], 
+  lastRunDate=null, 
+  status=null, 
+  successCount=0, 
+  failureCount=0, 
+  incompleteCount=0, 
+  skippedCount=0, 
+  stoppedCount=0, 
+  hasAccess=false, 
+  accessNeeded=null, 
+  hasDurationAction=false, 
+  runBy=null
+) to com.bettercloud.workflow.model.dto.MetaWorkflowDTO

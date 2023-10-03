@@ -1,0 +1,16 @@
+{
+  "name": "args-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "args-test.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node generate/scripts/generate.js",
+    "debug-generate": "node ./generate.js -- -i ./internal/openapi/petstore/v1/openapi.yaml -t spring-server -l true"
+  },
+  "dependencies": {
+    "commander": "^9.4.1"
+  }
+}
