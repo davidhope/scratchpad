@@ -1,21 +1,21 @@
-// const type = require('./type');
+const type = require('./type');
 
-// const validated = type({"firstName": "dave", "lastName": "hope"});
+const validated = type({"firstName": "dave", "lastName": "hope"});
 
 // console.log(validated);
 
-const avro = require('avsc');
-const type = avro.Type.forSchema({
-  type: 'record',
-  name: 'Pet',
-  fields: [
-    {
-      name: 'kind',
-      type: {type: 'enum', name: 'PetKind', symbols: ['CAT', 'DOG']}
-    },
-    {name: 'name', type: 'string', doc: 'cat\'s name'}
-  ]
-});
+// const avro = require('avsc');
+// const type = avro.Type.forSchema({
+//   type: 'record',
+//   name: 'Pet',
+//   fields: [
+//     {
+//       name: 'kind',
+//       type: {type: 'enum', name: 'PetKind', symbols: ['CAT', 'DOG']}
+//     },
+//     {name: 'name', type: 'string', doc: 'cat\'s name'}
+//   ]
+// });
 
 let cat = {kind: 'CAT', name: 'Albert'};
 if(type.isValid(cat)){

@@ -109,3 +109,50 @@ Failed to convert MetaWorkflowDTO(
   hasDurationAction=false, 
   runBy=null
 ) to com.bettercloud.workflow.model.dto.MetaWorkflowDTO
+
+
+4.2.1 – General Line of Business 54
+4.2.2 – Audit 62
+4.2.3 – Cash Receipts 64
+4.2.4 – Chat 67
+4.2.5 – Contact Management 69
+4.2.6 – Death Benefits 72
+4.2.7 – Disability Benefits 77
+4.2.8 – Divorce Benefits (QILDRO) 80
+4.2.9 – Employer Audit 83
+4.2.10 – Employer Reporting 85
+4.2.11 – Employer Setup 92
+4.2.12 – Health Insurance (Annuitants Only) 94
+4.2.13 – Imaging 104
+4.2.14 – Late Fee Reporting 107
+4.2.15 – Lump Sum Payroll (Weekly) 108
+4.2.16 – Member Record Maintenance 112
+4.2.17 – Member Statements 117
+4.2.18 – Monthly Pension Payroll 120
+4.2.19 – New Member Setup 125
+4.2.20 – Pension Adjustments 126
+4.2.21 – Pension Calculations 131
+4.2.22 – Pension Estimates 135
+4.2.23 – Refunds 138
+4.2.24 – Retirement Application Process 142
+4.2.25 – Service Credit Calculation 144
+4.2.26 – Service Purchase Contract 146
+4.2.27 – Statistical and Actuarial Reporting 149
+4.2.28 – Subledger 150
+4.2.29 – Tax Reporting 152
+4.2.30 – Web Self Service 153
+4.2.31 – Workflow 162
+
+
+
+
+Resume highlights:
+ - api development - typescript
+ - sdlc lifecycle
+ - backend, api dev, (typescript), microservices
+ - testing tools, chai, mocha
+ - dev tools (?)
+ - messaging (kafka, rabbitMQ)
+ - docker, containerization
+ - cloud exp
+ - database (mongodb)

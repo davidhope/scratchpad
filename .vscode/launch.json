@@ -12,7 +12,7 @@
         "<node_internals>/**"
       ],
       "cwd": "${workspaceRoot}/js/",
-      "program": "${workspaceFolder}/js/array-work.js"
+      "program": "${workspaceFolder}/js/map-work.js"
     },
     {
       "type": "node",
@@ -23,6 +23,16 @@
       ],
       "cwd": "${workspaceRoot}/js/avro-test",
       "program": "${workspaceFolder}/js/avro-test/index.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Algo",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "cwd": "${workspaceRoot}/js/",
+      "program": "${workspaceFolder}/js/algo-tests.js"
     }
   ]
 }
